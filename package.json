@@ -4,15 +4,20 @@
   "description": "clothing shop restfull api using node,express,mongodb atlas",
   "main": "server.js",
   "scripts": {
-    "start":"nodemon server.js",
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.3"
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.8"
   },
   "devDependencies": {
+    "dotenv": "^16.0.0",
     "nodemon": "^2.0.15"
   }
 }
